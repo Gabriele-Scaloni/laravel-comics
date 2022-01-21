@@ -1,5 +1,5 @@
 <footer>
 
 
-<h1>footer</h1>
+    <h2 class="d-flex justify-content-center">qui va il footer</h2>
 </footer>

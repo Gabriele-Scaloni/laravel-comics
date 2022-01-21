@@ -3,6 +3,10 @@
 use Illuminate\Support\Facades\Route;
 
 
+Route::get('/', function (){
+    return view('views.card');
+});
+
 Route::get('/', function () {
     return view('views.home');
 });
