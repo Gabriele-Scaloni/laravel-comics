@@ -1,40 +1,69 @@
+{{-- la home estende il layout --}}  
 @extends ('layouts.main-layout')
 @section ('content')
-
+    
     <h2 class="d-flex justify-content-center">questa é la home</h2>
 
-
-<div class="container d-flex justify-content-around">
-        <div class="card" style="width: 18rem;">
+    <div class="container-comics">
+        <div class="img-container">
             <img src="https://www.syfy.com/sites/syfy/files/whowantstobeasuperhero-s1-keyart-show-tile-1920x1080.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text text-center"> <a href=""></a> </p>
             </div>
         </div>
-        <div class="card" style="width: 18rem;">
+        <div class="img-container">
             <img src="https://www.syfy.com/sites/syfy/files/whowantstobeasuperhero-s1-keyart-show-tile-1920x1080.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text text-center"><a href=""></a></p>
             </div>
         </div>
-        <div class="card" style="width: 18rem;">
+        <div class="img-container">
             <img src="https://www.syfy.com/sites/syfy/files/whowantstobeasuperhero-s1-keyart-show-tile-1920x1080.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text text-center"><a href="">Superman</a></p>
             </div>
         </div>
-        <div class="card" style="width: 18rem;">
+        <div class="img-container">
             <img src="https://www.syfy.com/sites/syfy/files/whowantstobeasuperhero-s1-keyart-show-tile-1920x1080.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text text-center"><a href="">Superman</a></p>
             </div>
         </div>
-        <div class="card" style="width: 18rem;">
+        <div class="img-container">
             <img src="https://www.syfy.com/sites/syfy/files/whowantstobeasuperhero-s1-keyart-show-tile-1920x1080.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text text-center"><a href="">Superman</a></p>
             </div>
         </div>
-
+        <div class="img-container">
+            <img src="https://www.syfy.com/sites/syfy/files/whowantstobeasuperhero-s1-keyart-show-tile-1920x1080.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text text-center"><a href="">Superman</a></p>
+            </div>
+        </div>
+        <div class="img-container">
+            <img src="https://www.syfy.com/sites/syfy/files/whowantstobeasuperhero-s1-keyart-show-tile-1920x1080.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text text-center"><a href="">Superman</a></p>
+            </div>
+        </div>
+        <div class="img-container">
+            <img src="https://www.syfy.com/sites/syfy/files/whowantstobeasuperhero-s1-keyart-show-tile-1920x1080.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text text-center"><a href="">Superman</a></p>
+            </div>
+        </div>
+        <div class="img-container">
+            <img src="https://www.syfy.com/sites/syfy/files/whowantstobeasuperhero-s1-keyart-show-tile-1920x1080.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text text-center"><a href="">Superman</a></p>
+            </div>
+        </div>
+        <div class="img-container">
+            <img src="https://www.syfy.com/sites/syfy/files/whowantstobeasuperhero-s1-keyart-show-tile-1920x1080.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text text-center"><a class="a" href="">Superman</a></p>
+            </div>
+        </div>
     </div>
-     @endsection
+@endsection

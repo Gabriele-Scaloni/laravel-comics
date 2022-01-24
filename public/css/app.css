@@ -1,0 +1,39 @@
+/* body {  
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+per utilizzare i partials devo aggiungerli qui con @import 'partials/nomepartial';
+*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container-comics {
+  width: 100wv;
+  height: auto;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-comics .img-container {
+  margin: 10px;
+}
+
+.container-comics .img-container {
+  margin: 10px;
+  max-width: 200px;
+  min-width: 200px;
+  height: 200px;
+}
+
+.container-comics a {
+  color: white;
+  text-decoration: none;
+}
+
